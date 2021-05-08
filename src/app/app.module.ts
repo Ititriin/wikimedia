@@ -7,7 +7,6 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
-import { ProductDetailsComponent } from './product-details/product-details.component';
 import { CartComponent } from './cart/cart.component';
 
 @NgModule({
@@ -25,7 +24,6 @@ import { CartComponent } from './cart/cart.component';
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductDetailsComponent,
     CartComponent
   ],
   bootstrap: [
