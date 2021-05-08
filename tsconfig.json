@@ -5,8 +5,6 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    // TODO(gkalpak): Fix the code and enable this.
-    // "strict": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
@@ -23,8 +21,6 @@
     ]
   },
   "angularCompilerOptions": {
-    // For v11.2.x we leave `enableI18nLegacyMessageIdFormat` true so that the View Engine CI runs pass.
-    // From v12.0.0 onwards, we have dropped the View Engine CI runs, and this is reverted to `false`.
     "enableI18nLegacyMessageIdFormat": true,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
