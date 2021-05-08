@@ -5,25 +5,16 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { TopBarComponent } from './top-bar/top-bar.component';
-import { ProductListComponent } from './product-list/product-list.component';
 import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   imports: [
     BrowserModule,
     HttpClientModule,
-    ReactiveFormsModule,
-    RouterModule.forRoot([
-      { path: '', component: ProductListComponent },
-      { path: 'products/:productId' },
-      { path: 'cart', component: CartComponent }
-    ])
+    ReactiveFormsModule
   ],
   declarations: [
     AppComponent,
-    TopBarComponent,
-    ProductListComponent,
     CartComponent
   ],
   bootstrap: [
