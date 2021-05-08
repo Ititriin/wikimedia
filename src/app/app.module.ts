@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   imports: [
@@ -14,8 +13,7 @@ import { CartComponent } from './cart/cart.component';
     ReactiveFormsModule
   ],
   declarations: [
-    AppComponent,
-    CartComponent
+    AppComponent
   ],
   bootstrap: [
     AppComponent
