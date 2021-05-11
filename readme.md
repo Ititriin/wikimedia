@@ -89,11 +89,3 @@ app.layout = html.Div(children=[
 ])
 ```
 
-
-        
-if __name__ == '__main__':
-<<<<<<< HEAD
-    app.run_server(debug=True)  -->
-=======
-    app.run_server(debug=True) 
->>>>>>> 21c9595cfc9b2daedf42c2eda2d1ddf00aff3d0e
