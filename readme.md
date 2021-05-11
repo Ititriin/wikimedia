@@ -34,3 +34,17 @@ ng serve
 
 - It will provide you with an url if everything's okay (http://localhost:4200/)
 - Continue working with local angular :)
+
+#### Starting existing angular project locally
+
+```bash
+npm install
+```
+
+```bash
+cd app
+```
+
+```bash
+ng serve
+```
