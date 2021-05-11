@@ -49,7 +49,7 @@ cd app
 ng serve
 ```
 
-#### Alternative solution in python until this angular works
+<!-- #### Alternative solution in python until this angular works
 
 import dash
 import dash_core_components as dcc
@@ -87,4 +87,4 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True) 
+    app.run_server(debug=True)  -->
