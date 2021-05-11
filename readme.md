@@ -51,6 +51,8 @@ ng serve
 
 <!-- #### Alternative solution in python until this angular works
 
+
+```bash
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
@@ -85,6 +87,13 @@ app.layout = html.Div(children=[
 )
 
 ])
+```
 
+
+        
 if __name__ == '__main__':
+<<<<<<< HEAD
     app.run_server(debug=True)  -->
+=======
+    app.run_server(debug=True) 
+>>>>>>> 21c9595cfc9b2daedf42c2eda2d1ddf00aff3d0e
