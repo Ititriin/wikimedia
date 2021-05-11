@@ -48,3 +48,43 @@ cd app
 ```bash
 ng serve
 ```
+
+#### Alternative solution in python until this angular works
+
+<!-- import dash
+import dash_core_components as dcc
+import dash_html_components as html
+import dash_table
+import requests
+import datetime
+import aniso8601
+import pandas
+
+external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
+
+app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+
+yesterday = datetime.datetime.now() - aniso8601.parse_duration("P1D")
+date = yesterday.strftime('%Y/%m/%d')
+
+url = 'https://api.wikimedia.org/feed/v1/wikipedia/en/featured/' + date
+
+response = requests.get(url)
+data = response.json()
+
+table_data = pandas.json_normalize([item["pages"][0] for item in data['onthisday']])
+table_data = table_data[['displaytitle', 'description', "thumbnail.source"]]
+
+app.layout = html.Div(children=[
+    html.H1(children='Wiki Dash'),
+
+    dash_table.DataTable(
+        id='table',
+        columns=[{"name": i, "id": i} for i in table_data.columns],
+        data=table_data.to_dict('records'),
+)
+
+])
+
+if __name__ == '__main__':
+    app.run_server(debug=True) -->
